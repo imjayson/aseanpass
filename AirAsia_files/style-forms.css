@@ -1,0 +1,520 @@
+.airasia-form{    
+ float:left;    
+ padding:25px 50px;    
+ margin-bottom:20px;    
+ background:#e3e3e3;    
+}    
+
+.airasia-form h1{    
+ float:left;    
+ color:#000;    
+ font-size:30px;    
+ padding-bottom:10px;    
+ letter-spacing:-1px;    
+ text-transform:none;    
+}    
+
+.airasia-form h2{    
+ float:left;    
+ color:#d00;    
+ font-size:16px;    
+ padding:20px 0 5px 0;    
+ text-transform:none;    
+}    
+
+.airasia-form h3{    
+ float:left;    
+ color:#000;    
+ font-size:14px;    
+ padding:5px 0;    
+ text-transform:none;    
+}    
+
+.airasia-form h6{    
+ float:left;    
+ color:#000;    
+    font-size:14px;    
+    padding:15px 10px;    
+ margin:10px 0;    
+ text-transform:none;    
+ background-color:#e3e3e3;    
+}    
+
+.airasia-form span.req-reminder{    
+ float:left;    
+ width:100%;    
+ font-size:12px;    
+ font-style:italic;    
+ text-align:right;    
+ color:#7f7f7f;    
+ margin-bottom:20px;    
+}    
+
+.airasia-form span.req-reminder span.req{    
+ font-size:16px;    
+ font-weight:bold;    
+ font-style:none;    
+ color:#d00;    
+ margin-right:5px;    
+}    
+
+.airasia-form fieldset{    
+ float:left;    
+ clear:left;    
+ width:100%;    
+}    
+
+.airasia-form fieldset legend{    
+ float:left;    
+ color:#d00;    
+ font-size:16px;    
+ padding:20px 0 5px 0;    
+ text-transform:none;    
+}    
+
+.airasia-form label.form-label{    
+ float:left;    
+ clear:left;    
+ width:150px;    
+ font-size:13px;    
+ font-weight:bold;    
+ color:#333;    
+ padding-left:10px;    
+ margin-top:4px;    
+ margin-right:7px;    
+ margin-bottom:10px;    
+}    
+
+.airasia-form label.form-label span.req{    
+ font-size:16px;    
+ font-weight:bold;    
+ color:#d00;    
+ margin-left:-10px;    
+ margin-right:5px;    
+}    
+
+.airasia-form label.input-label{    
+ float:left;    
+ width:550px;    
+ font-size:13px;    
+ margin-top:2px;    
+}    
+
+.airasia-form input.text,    
+.airasia-form textarea,     
+.airasia-form select{    
+ float:left;    
+ clear:left;    
+ font-size:13px;    
+ padding:2px;    
+ color:#333;    
+ border:solid 1px #d0d0d0;    
+ margin-right:5px;    
+ margin-bottom:10px;    
+}    
+
+.airasia-form input.text-no-clear{    
+ clear:none;    
+}    
+
+.airasia-form select option{    
+ font-size:13px;    
+}    
+
+.airasia-form textarea{    
+ width:350px;    
+ height:200px;    
+}    
+
+.airasia-form input.checkbox,    
+.airasia-form input.radio{    
+ float:left;    
+ clear:left;    
+ margin-right:7px;    
+}    
+
+.airasia-form  a.dp-choose-date {     
+ float:left;    
+ width:16px;    
+ height:16px;    
+ padding:0px;    
+ display:block;    
+ text-indent:-200px;    
+ overflow:hidden;    
+ background:url('/iwov-resources/my/common/images/AirAsia/icon/icon-calendar-form.gif') no-repeat;    
+ margin-left:0px;    
+ margin-right:8px;    
+ margin-top:5px;    
+ margin-bottom:0px;    
+}    
+
+.airasia-form div.field-group{    
+ float:left;    
+ width:400px;    
+}    
+
+.ie7 .airasia-form div.field-group,    
+.ie6 .airasia-form div.field-group{    
+ margin-bottom:10px;    
+}    
+
+.airasia-form span.field-note{    
+ float:left;    
+ font-size:13px;    
+ margin-top:6px;    
+ margin-left:3px;    
+}    
+
+.airasia-form p.note{    
+ float:left;    
+ width:400px;    
+ font-size:12px;    
+ margin-bottom:10px;    
+}    
+
+.airasia-form div.form-highlight{    
+ float:left;    
+ clear:left;    
+ width:600px;    
+ padding:15px;    
+ font-size:13px;    
+ background:#eee;    
+}    
+
+.airasia-form div.form-highlight a{    
+ color:#333;    
+ text-decoration:underline;    
+}    
+
+.airasia-form div.form-highlight a:hover{    
+ text-decoration:none;    
+}    
+
+.airasia-form .form-actions{    
+ float:left;    
+ width:100%;    
+}    
+
+.airasia-form .form-actions .btn-holder{    
+ float:right;    
+}    
+
+.airasia-form .btn,    
+.airasia-form .btn-large{    
+ float:left;    
+ font-size:13px;    
+ color:#fff;    
+ font-weight:bold;    
+ text-decoration:none;    
+ background:#333;    
+ padding:7px 12px;    
+ border:0px;    
+ margin:10px;    
+}    
+
+.airasia-form .btn:hover,    
+.airasia-form .btn-large:hover{    
+ cursor:pointer;    
+ background:#666;    
+ text-decoration:none;    
+}    
+
+.airasia-form .btn-large{    
+ padding:12px 20px;    
+}    
+
+/* Specific form styles */    
+/* Feedback form */    
+.feedback-form{    
+ width:600px;    
+}    
+
+.feedback-form label.form-label{    
+ width:190px;    
+}    
+
+.feedback-form div.field-group{    
+ width:390px;    
+}    
+
+.feedback-form div.field-group input.text,    
+.feedback-form div.field-group textarea,     
+.feedback-form div.field-group select{    
+ clear:none;    
+}    
+
+.feedback-form p.note{    
+ width:390px;    
+}    
+
+/* Flight Schedule */    
+.form-flight-schedule{   
+ position:relative;    
+}    
+
+.form-flight-schedule p.note{    
+ width:860px;    
+ font-size:13px;    
+}    
+
+.form-flight-schedule div.field-group{    
+ width:260px;    
+ margin:10px 5px;    
+}    
+
+.form-flight-schedule label.form-label{    
+ width:230px;    
+ padding:0px;    
+ margin:0px 0px 3px 4px;    
+ clear:none;    
+}    
+
+.form-flight-schedule div.field-group-short,    
+.form-flight-schedule div.field-group-short label.form-label{    
+ width:160px;    
+}    
+
+.form-flight-schedule select{    
+ margin:0px;    
+}    
+
+.form-flight-schedule select option{    
+ font-size:13px;    
+}    
+
+.form-flight-schedule .btn,    
+.form-flight-schedule .btn-large{    
+ margin:25px 0px 0px 0px;    
+}    
+
+.form-flight-schedule .btn:hover,    
+.form-flight-schedule .btn-large:hover{    
+ text-decoration:none;    
+}    
+
+.form-flight-schedule-links h2{    
+ float:left;    
+ width:900px;    
+ padding-bottom:3px;    
+}    
+
+.form-flight-schedule-links ul{    
+ float:left;    
+ width:900px;    
+ margin-bottom:20px;    
+}    
+
+.form-flight-schedule-links ul li{    
+ list-style:square inside none;    
+ margin-bottom:3px;    
+}    
+
+.form-flight-schedule-links a{    
+ font-size:13px;    
+ color:#333;    
+}    
+
+.form-flight-schedule-table{    
+ width:960px;    
+}    
+
+.form-flight-schedule-table p{    
+ font-size:13px;    
+ margin-bottom:5px;    
+}    
+
+.form-flight-schedule-table a{    
+ color:#000;    
+ text-decoration:underline;    
+}    
+
+.form-flight-schedule-table a:hover{    
+ text-decoration:none;    
+}    
+
+.form-flight-schedule-table .tablevali{    
+ background:#cccccc;    
+ padding:0px;    
+ margin:0px;    
+ font-size:0px;    
+}    
+
+.form-flight-schedule-table .tablevali table{    
+ width:100%;    
+ padding:0px;    
+ margin:0px;    
+}    
+
+.ie6 .form-flight-schedule-table .tablevali table{    
+ width:240px;    
+}    
+
+.form-flight-schedule-table .tablevali table tr{    
+ height:20px;    
+}    
+
+.form-flight-schedule-table .tablevali table tr td{    
+ text-align:center;    
+ color:#000;    
+ font-size:11px;    
+ font-weight:normal;    
+ height:20px;    
+}    
+
+/* Registration Form */    
+.ie6 .corp-form .form-actions{    
+ /* Clears the phantom text issue in IE6 */    
+ float:none;    
+ clear:both;    
+}    
+
+.corp-form label.form-label{    
+ width:220px;    
+}    
+
+.gov-form label.form-label{    
+ width:160px;    
+}    
+
+.skyagent-form label.form-label{    
+ width:160px;    
+}    
+
+.ie7 .skyagent-form label.form-label,    
+.ie6 .skyagent-form label.form-label{    
+ margin-top:0px;    
+}    
+
+.travelagent-form label.form-label{    
+ width:160px;    
+}    
+
+.registration-form{    
+ width:600px;    
+ margin-top:25px;    
+ position:relative;    
+}    
+
+.registration-form span.req-reminder{    
+ margin:10px 0px 20px 0px;    
+}    
+
+.registration-form p{    
+ float:left;    
+ clear:left;    
+ width:600px;    
+ margin-bottom:5px;    
+}    
+
+.registration-form fieldset{    
+ width:600px;    
+ padding:0px;    
+ border:0px;    
+ margin:0px 0px 20px 0px;    
+}    
+
+.registration-form fieldset legend{    
+ width:100%;    
+ font-size:18px;    
+ padding:0px 0px 2px 0px;    
+ border-bottom:solid 1px #ccc;    
+ margin:0px 0px 5px 0px;    
+}    
+
+.registration-form fieldset div.field-group{    
+ width:350px;    
+}    
+
+.registration-form fieldset div.field-group p{    
+ margin-top:5px;    
+ margin-left:7px;    
+ margin-bottom:2px;    
+}    
+
+.ie6 .corp-form .field-group p{    
+ margin-left:3px;    
+ width:300px;    
+}    
+
+
+.registration-form fieldset label.number-label{    
+ float:left;    
+ clear:left;    
+ width:15px;    
+ font-weight:bold;    
+ font-size:12px;    
+ margin-top:6px;    
+}    
+
+.registration-form fieldset label.form-label-full{    
+ width:590px;    
+ font-style:italic;    
+}    
+
+.registration-form fieldset label.side-label{    
+ float:left;    
+ width:50px;    
+ margin-top:7px;    
+}    
+
+.registration-form fieldset input.radio{    
+ margin-top:8px;    
+ clear:none;    
+}    
+
+.registration-form fieldset input#explain-yes.radio,    
+.registration-form fieldset input#explain-no.radio{    
+ margin-top:26px;    
+}    
+
+.registration-form fieldset label#explain-yes-label,    
+.registration-form fieldset label#explain-no-label{    
+ margin-top:25px;    
+}    
+
+.ie9 .registration-form fieldset label#explain-yes-label,    
+.ie9 .registration-form fieldset label#explain-no-label,    
+.ie8 .registration-form fieldset label#explain-yes-label,    
+.ie8 .registration-form fieldset label#explain-no-label,    
+.ie7 .registration-form fieldset label#explain-yes-label,    
+.ie7 .registration-form fieldset label#explain-no-label,    
+.ie6 .registration-form fieldset label#explain-yes-label,    
+.ie6 .registration-form fieldset label#explain-no-label{    
+ margin-top:30px;    
+}    
+
+/* Fee Schedule Form */    
+.feeschedule-form{    
+ float:left;    
+ clear:none;    
+ width:600px;    
+ position:relative;    
+ margin-top:-40px;    
+}    
+
+.feeschedule-form p.note{    
+ width:600px;    
+}    
+
+.feeschedule-form div.field-group{    
+ width:230px;    
+ margin:10px 5px;    
+}    
+
+.feeschedule-form div.field-group select{    
+ width:230px;    
+}    
+
+.feeschedule-form label.form-label{    
+ width:210px;    
+ padding:0px;    
+ margin:0px 0px 3px 4px;    
+ clear:none;    
+}    
+
+.feeschedule-form .btn,    
+.feeschedule-form .btn-large{    
+ margin:25px 0px 0px 0px;    
+}    
+
+ 

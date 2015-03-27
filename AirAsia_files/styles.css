@@ -1,0 +1,1074 @@
+/* added by vesselin to fix the language selector */
+
+footer div#language-selector {
+    clear: left;
+    float: left;
+    padding-bottom: 7px;
+    position: absolute;
+    margin: 0 0 23px;
+}
+
+    footer div#language-selector span#dropdown {
+        -moz-border-bottom-colors: none;
+        -moz-border-left-colors: none;
+        -moz-border-right-colors: none;
+        -moz-border-top-colors: none;
+        background: none repeat scroll 0 0 #FFFFFF;
+        border-color: #AAADB2 #E2E9EF #E2E9EF;
+        border-image: none;
+        border-right: 1px solid #E2E9EF;
+        border-style: solid;
+        border-width: 1px;
+        cursor: pointer;
+        float: left;
+        font-size: 11px;
+        padding: 4px 7px 3px;
+        position: relative;
+        width: 175px;
+    }
+
+        footer div#language-selector span#dropdown img {
+            padding-right: 7px;
+        }
+
+            footer div#language-selector span#dropdown img.arrow {
+                padding: 6px 7px 0 0;
+                position: absolute;
+                right: 0;
+            }
+
+    footer div#language-selector div#language-selector-box {
+        background: none repeat scroll 0 0 #FFFFFF;
+        border: 1px solid #CECECE;
+        bottom: 0;
+        display: none;
+        float: left;
+        padding: 15px;
+        position: absolute;
+		z-index: 9999;
+    }
+
+        footer div#language-selector div#language-selector-box div.language-selector-box-wrapper {
+            float: left;
+            padding: 0 40px;
+            width: 690px;
+        }
+
+        footer div#language-selector div#language-selector-box div.toolbar {
+            margin-bottom: 15px;
+        }
+
+            footer div#language-selector div#language-selector-box div.toolbar h4 {
+                color: #DD0000;
+            }
+
+            footer div#language-selector div#language-selector-box div.toolbar a.btn-close {
+                float: right;
+                font-size: 12px;
+            }
+
+                footer div#language-selector div#language-selector-box div.toolbar a.btn-close img {
+                    vertical-align: middle;
+                }
+
+        footer div#language-selector div#language-selector-box ul {
+            clear: none;
+            float: left;
+            width: 230px;
+        }
+
+        footer div#language-selector div#language-selector-box li {
+            color: #666666;
+            width: 230px;
+        }
+
+        footer div#language-selector div#language-selector-box div.languages {
+            clear: left;
+            float: left;
+            margin-bottom: 10px;
+            padding-left: 25px;
+            white-space: nowrap;
+        }
+
+        footer div#language-selector div#language-selector-box h5 {
+            clear: right;
+            color: #000000;
+            font-weight: 700;
+            padding-left: 24px;
+            text-transform: none;
+            margin: 0px;
+        }
+
+            footer div#language-selector div#language-selector-box h5.au {
+                background: url("../../images/AirAsia/sprites-flags.png") no-repeat scroll 0 0 ;
+            }
+
+            footer div#language-selector div#language-selector-box h5.bn {
+                background: url("../../images/AirAsia/sprites-flags.png") no-repeat scroll 0 -50px ;
+            }
+
+            footer div#language-selector div#language-selector-box h5.kh {
+                background: url("../../images/AirAsia/sprites-flags.png") no-repeat scroll 0 -350px ;
+            }
+
+            footer div#language-selector div#language-selector-box h5.cn {
+                background: url("../../images/AirAsia/sprites-flags.png") no-repeat scroll 0 -100px ;
+            }
+
+            footer div#language-selector div#language-selector-box h5.hk {
+                background: url("../../images/AirAsia/sprites-flags.png") no-repeat scroll 0 -150px ;
+            }
+
+            footer div#language-selector div#language-selector-box h5.in {
+                background: url("../../images/AirAsia/sprites-flags.png") no-repeat scroll 0 -250px ;
+            }
+
+            footer div#language-selector div#language-selector-box h5.id {
+                background: url("../../images/AirAsia/sprites-flags.png") no-repeat scroll 0 -200px ;
+            }
+
+            footer div#language-selector div#language-selector-box h5.jp {
+                background: url("../../images/AirAsia/sprites-flags.png") no-repeat scroll 0 -300px ;
+            }
+
+            footer div#language-selector div#language-selector-box h5.la {
+                background: url("../../images/AirAsia/sprites-flags.png") no-repeat scroll 0 -450px ;
+            }
+
+            footer div#language-selector div#language-selector-box h5.mo {
+                background: url("../../images/AirAsia/sprites-flags.png") no-repeat scroll -250px -50px ;
+            }
+
+            footer div#language-selector div#language-selector-box h5.my {
+                background: url("../../images/AirAsia/sprites-flags.png") no-repeat scroll -250px -100px ;
+            }
+
+            footer div#language-selector div#language-selector-box h5.mv {
+                background: url("../../images/AirAsia/sprites-flags.png") no-repeat scroll -500px -100px ;
+            }
+
+            footer div#language-selector div#language-selector-box h5.mm {
+                background: url("../../images/AirAsia/sprites-flags.png") no-repeat scroll -250px 0 ;
+            }
+
+            footer div#language-selector div#language-selector-box h5.np {
+                background: url("../../images/AirAsia/sprites-flags.png") no-repeat scroll -250px -150px ;
+            }
+
+            footer div#language-selector div#language-selector-box h5.ot {
+                background: url("../../images/AirAsia/sprites-flags.png") no-repeat scroll -250px -200px ;
+            }
+
+            footer div#language-selector div#language-selector-box h5.ph {
+                background: url("../../images/AirAsia/sprites-flags.png") no-repeat scroll -250px -250px ;
+            }
+
+            footer div#language-selector div#language-selector-box h5.sa {
+                background: url("../../images/AirAsia/sprites-flags.png") no-repeat scroll -250px -300px ;
+            }
+
+            footer div#language-selector div#language-selector-box h5.sg {
+                background: url("../../images/AirAsia/sprites-flags.png") no-repeat scroll -250px -350px ;
+            }
+
+            footer div#language-selector div#language-selector-box h5.kr {
+                background: url("../../images/AirAsia/sprites-flags.png") no-repeat scroll 0 -400px ;
+            }
+
+            footer div#language-selector div#language-selector-box h5.lk {
+                background: url("../../images/AirAsia/sprites-flags.png") no-repeat scroll -500px -50px ;
+            }
+
+            footer div#language-selector div#language-selector-box h5.tw {
+                background: url("../../images/AirAsia/sprites-flags.png") no-repeat scroll -250px -450px ;
+            }
+
+            footer div#language-selector div#language-selector-box h5.th {
+                background: url("../../images/AirAsia/sprites-flags.png") no-repeat scroll -250px -400px ;
+            }
+
+            footer div#language-selector div#language-selector-box h5.vn {
+                background: url("../../images/AirAsia/sprites-flags.png") no-repeat scroll -500px 0 ;
+            }
+
+footer .language-selector-box-wrapper h5 {
+    clear: left;
+    float: left;
+    text-shadow: 1px 1px 0 #FFFFFF;
+}
+
+footer .right-column .language-selector-box-wrapper ul {
+    clear: left;
+    float: left;
+    padding: 0 0 15px;
+}
+
+    footer .right-column .language-selector-box-wrapper ul li {
+        clear: left;
+        float: left;
+        width: 140px;
+        list-style: none outside none;
+        margin: 0;
+        padding: 0;
+    }
+
+footer select {
+    font-size: 11px;
+}
+
+/*this should probably go to all.css*/
+.bottom a, .row a {
+    color: #f20000;
+    text-decoration: none;
+}
+
+.bottom a:hover, .row a:hover{
+    text-decoration: underline;
+}
+
+/* this is to hide all promo banner images*/
+.promoBanner, .seoBanner {
+    display: none;
+}
+
+/* allow h2 on block faq section*/
+#sidebar .block.faq h2 {
+    background: none repeat scroll 0 0 #4EAF93;
+}
+
+/*fix the links color*/
+#sidebar .block ul li a {
+    color: #010101;
+}
+
+/*fix for logo in backend*/
+.logoDiv {
+    width: 235px;
+    float: left;
+}
+
+/* fix for the related topics */
+#sidebar .block ul li {
+    padding: 0 0 18px 13px;
+    position: relative;
+}
+
+    #sidebar .block ul li:after {
+        background: none repeat scroll 0 0 #010101;
+        border-radius: 3px;
+        content: "";
+        height: 6px;
+        left: 2px;
+        position: absolute;
+        top: 6px;
+        width: 6px;
+    }
+
+#sidebar .block ul {
+    list-style: none outside none;
+}
+
+#sidebar .block ul {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+
+#sidebar .block ul {
+    padding: 0 10px 0 25px;
+}
+
+/* fix the sidebar on page seo dest*/
+#sidebar .flight-list a {
+    color: #666666;
+    text-decoration: underline;
+    font: 12px/15px Arial,Helvetica,sans-serif;
+}
+
+#sidebar .flight-list p {
+    margin: 0 0 21px;
+    padding: 0;
+    color: #010101;
+    font: 12px/15px Arial,Helvetica,sans-serif;
+}
+
+/*fix for the seo tables*/
+article.seo-destination {
+    float: right;
+    padding-bottom: 20px;
+    padding-right: 5px;
+    width: 630px;
+}
+
+article.seo-destination-map {
+    float: left;
+    width: 290px;
+}
+
+article.seo-destination .breadcrumb {
+    padding-top: 10px;
+}
+
+article.seo-destination .promotion-listing {
+    padding: 0;
+}
+
+header.fly-title h3 {
+    margin: 0;
+}
+
+/* fix for the promo Book Now buttons*/
+a.btnGrey:link, a.btnGrey:visited {
+    text-decoration: none;
+    background-color: #333;
+    font-weight: 700;
+    color: #FFF;
+    float: left;
+    display: block;
+    margin: 10px 0;
+    padding: 7px 12px;
+}
+
+a.btnGrey:hover {
+    background-color: #666;
+    color: #fff;
+    font-weight: 700;
+    outline: 0;
+}
+
+a.btnGreybig:link, a.btnGreybig:visited {
+    text-decoration: none;
+    background-color: #333;
+    font-weight: 700;
+    color: #FFF;
+    float: left;
+    display: block;
+    height: 23px;
+    margin: 10px 0;
+    padding: 12px 20px 7px;
+}
+
+a.btnGreybig:hover {
+    background-color: #666;
+    color: #fff;
+    font-weight: 700;
+    outline: 0;
+}
+
+header.sf_cols.press-heading {
+    margin: 0px 0px 49px;
+}
+
+.fly-title select{
+    padding: 7px 3px;
+height: 34px;
+width: 198px;
+color: #000;
+border: 1px solid #E7E7E7;
+font: 14px/17px Arial,Helvetica,sans-serif;
+box-shadow: 1px 0px 3px 0px #E8E8E8 inset;
+}
+
+/* fix for the SEO Destinations main tables*/
+.promotion-listing .header {
+    padding: 0px;
+    color: #000;
+    font: bold 18px/28px Arial,Helvetica,sans-serif;
+    margin: 0 0 14px;
+    overflow: hidden;
+}
+
+.promotion-listing .blue {
+    background: 0 0;
+    padding: 0px;
+}
+
+.tables span.seoPrice {
+    font-weight: bold;
+}
+
+    .tables span.destination {
+        font-weight: normal;
+    }
+
+article.cheap-flight-table table {
+    margin: 0 0 14px;
+}
+
+article.cheap-flight-table, .cheap-flight-table table.connecting-table {
+    margin: 0px;
+}
+
+.terms .termstyle {
+    line-height: 14px;
+    width: 780px;
+}
+
+.terms .termstyle a {
+    text-decoration: underline;
+}
+
+/* fix for the investor relations press releases*/
+.tablectn {
+    background-color: #efefef;
+    font-size: 14px;
+    height: auto;
+    padding: 5px;
+}
+
+.tablectn2 {
+    background-color: #fcfcfc;
+    font-size: 14px;
+    height: auto;
+    padding: 5px;
+}
+
+.tablehdr {
+    background-color: #333333;
+    font-weight: bold; 
+    color: #FFF;
+    font-size: 14px;
+    height: 26px;
+    padding: 5px;
+}
+
+.tablehdr2 {
+    background-color: #cccccc;
+    color:#000;
+    font-size: 14px;
+    height: 21px;
+    padding: 5px;
+}
+
+.tablevali {
+    background: #999 url(../../images/AirAsia/valiBG.png) no-repeat 0 0;
+    color: #FFF;
+    font-size: 11px;
+    font-weight: 700;
+    height: 21px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+a.tablehdrlink:link, a.tablehdrlink:visited {
+    color: #FFF;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+a.tablehdrlink:hover {
+    color: #FFF;
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+/*fix for links without children in nav*/
+.travel .col .block a.title, .travel .col a.title {
+    color: #f20000 !important;
+    font-weight: bold;
+}
+
+.press-article table, .full-page table {
+    width: 100%;
+    font: 14px/16px Arial,Helvetica,sans-serif;
+}
+
+.full-page h3{
+     font-size: 14px; 
+     font-weight: bold;
+}
+/* footer fixes*/
+div.row.three-cols{
+    line-height: 16px;
+}
+
+.footer-two-column a {
+    font: 11px/16px Arial, Helvetica, sans-serif;
+}
+
+.left-column .sfContentBlock h5 {
+    color: #000;
+    font: bold 12px/16px Arial,Helvetica,sans-serif;
+    margin: 0px;
+    text-transform: uppercase;
+}
+
+    .left-column .sfContentBlock h5:nth-of-type(2) {
+        color: #000;
+        font: bold 12px/16px Arial,Helvetica,sans-serif;
+        margin: 15px 0px 0px 0px;
+        text-transform: uppercase;
+    }
+
+.left-column .sfContentBlock ul {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.left-column .sfContentBlock {
+    margin: 0 0 15px;
+}
+
+div.bottom h5 {
+    margin: 0 0 2px;
+}
+
+.bottom h5, .right-column h5 {
+    color: #000;
+    font: bold 12px/16px Arial,Helvetica,sans-serif;
+    margin: 0 0 5px;
+    text-transform: uppercase;
+}
+
+div.footer-seo-left ul, div.footer-seo-right ul {
+    margin: 0 0 10px;
+}
+
+.footer-seo-left ul, .footer-seo-right ul {
+    display: inline-block;
+    list-style: none outside none;
+    margin: 0 0 15px;
+    padding: 0;
+    vertical-align: top;
+    width: 214px;
+}
+
+    .footer-seo-left ul li:after, .footer-seo-right ul li::after {
+        background: none repeat scroll 0 0 #666;
+        border-radius: 2px;
+        content: "";
+        height: 4px;
+        left: 0;
+        position: absolute;
+        top: 6px;
+        width: 4px;
+    }
+
+    .footer-seo-left ul li, .footer-seo-right ul li {
+        padding: 0 0 0 8px;
+        position: relative;
+    }
+
+.bottom .sfContentBlock p {
+    display: block;
+    font-weight: normal;
+    margin: 0;
+}
+
+.left-column .bottom .sfContentBlock p, .left-column .bottom .domastic {
+    margin: 0 0 15px;
+}
+
+.right-column p {
+    margin: 0 0 8px;
+}
+
+.right-column .row p {
+    color: #000;
+    font: bold 12px/16px Arial,Helvetica,sans-serif;
+    margin: 0 0 5px;
+    text-transform: uppercase;
+}
+
+.right-column .row .sfContentBlock p {
+    color: #666;
+    font: 11px/16px Arial,Helvetica,sans-serif;
+    text-transform: none;
+    width: 200px;
+}
+
+.right-column .row table {
+    margin: 55px 0 40px;
+}
+
+.right-column .row .sfContentBlock{
+    color: #666;
+    font: 11px/16px Arial,Helvetica,sans-serif;
+    margin: 0 0 45px;
+    overflow: hidden;
+}
+
+/* main banner fix */
+.two-column .sf_2cols_2_50 {
+    float: none;
+    width: auto;
+}
+
+.two-column {
+    width: auto;
+    overflow: visible;
+    top: -33px;
+}
+
+.left-column .bottom .sfContentBlock ul li:after{
+    background: none repeat scroll 0 0 #666;
+    border-radius: 2px;
+    content: "";
+    height: 4px;
+    left: 0;
+    position: absolute;
+    margin-top: 6px;
+    width: 4px;
+}
+
+.left-column .bottom .sfContentBlock ul li{
+    margin-left: 8px;
+}
+
+/* popup window on home page logou*/
+div#popup-bg {
+    position: fixed;
+    z-index: 999999;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    color: #0dd;
+    background: #000;
+    filter: alpha(opacity=40);
+    -moz-opacity: .4;
+    -khtml-opacity: .4;
+    opacity: .4;
+}
+
+div#popup {
+    position: fixed;
+    z-index: 99999999;
+    width: 400px;
+    padding: 20px;
+    top: 100px;
+    left: 50%;
+    margin-left: -210px;
+    background: #fff;
+}
+
+    div#popup div.popup-buttons {
+        float: left;
+        width: 100%;
+    }
+
+    div#popup h3, div#popup p {
+        padding-bottom: 7px;
+    }
+
+    div#popup h3, div#popup p {
+        padding-bottom: 7px;
+    }
+
+    div#popup a.btn-close {
+        float: right;
+        padding: 5px 20px 5px 5px;
+        color: #949494;
+        background: url('/Common/images/close-button.png') right 4px no-repeat;
+    }
+
+/* error message login */
+.showError {
+    border: 1px solid #e3e3e3;
+    background: #ffffcd;
+    display: inline-table;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 231px;
+}
+
+/* ads text */
+.advertise-box h6 {
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    /* also accepts left, right, top, bottom coordinates; not required, but a good idea for styling */
+    -webkit-transform-origin: 50% 50%;
+    -moz-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    -o-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    /* Should be unset in IE9+ I think. */
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+    float: left;
+    margin-top: 40px;
+    font: 10px Arial, Helvetica, sans-serif;
+    color: #ccc;
+    margin-right: -25px;
+}
+
+div.advertise-box {
+    margin: 44px 15px 26px 0 !important;
+}
+
+.ad-outer-container {
+    float: right;
+}
+
+div.sf_cols.two-column {
+    margin: 0 0 4px;
+}
+
+.webcheck img.barcode {
+    position: absolute;
+    margin: -40px 0 0 4px;
+    display: none;
+    background: #707070;
+    left: 370px;
+}
+
+.webcheck div.barcode2 {
+    position: absolute;
+    margin: -15px 0 0 44px;
+    left: 560px;
+    display: none;
+    width: 195px;
+    background: #707070;
+    padding: 10px;
+    color: #fff;
+    opacity: .9;
+}
+
+.language {
+    height: 36px;
+}
+
+/* route map fix*/
+iframe.iframe-content {
+    float: left;
+    border: 0;
+   /* margin-top: -40px;*/
+}
+
+iframe.route-map {
+    position: absolute;
+    left: 0;
+    height: 95%;
+    margin-top: 0px;
+}
+
+/* hot meals tabs*/
+div.mytab{padding-left:0}
+div.mytab ul li{border:0;padding:0;list-style:none;margin-left:0}
+div.mytab ul{border-bottom:solid 1px #DEDEDE;height:30px;padding-left:0}
+div.mytab li{float:left;margin-right:2px}
+div.mytab span{margin:0}
+ul.tab a:link,ul.tab a:visited{background:url('http://www.airasia.com/common/images/AirAsia/tabimg2.gif') right 60px;color:#666;display:block!important;font-weight:700;height:30px;line-height:30px;text-decoration:none}
+ul.tab a span{background:url('http://www.airasia.com/common/images/AirAsia/tabimg2.gif') scroll left 60px;display:block;height:30px;margin-right:14px;padding-left:14px}
+ul.tab a:hover{background:url('http://www.airasia.com/common/images/AirAsia/tabimg3.gif') right 30px;display:block}
+ul.tab a:hover span{background:url('http://www.airasia.com/common/images/AirAsia/tabimg3.gif') left 30px;display:block}
+li.active a:hover,li.active a:link,li.active a:visited{background:url('http://www.airasia.com/common/images/AirAsia/tabimg1.gif') right 0 no-repeat}
+li.active a span,li.active a:hover span{background:url('http://www.airasia.com/common/images/AirAsia/tabimg1.gif') left 0 no-repeat}
+
+/* page micro templates*/
+article.left{
+    display: none;
+float: left;
+width: 700px;
+color: #000;
+font-size: 13px;
+padding-right: 15px;
+padding-bottom: 50px;
+}
+
+article.checked-wrap article.left, article.checked-wrap.left{
+    display: block;
+}
+
+/* social widget */
+.press-heading div.text-holder, .press-heading div.sf_2cols_1_75
+{
+   width: 450px;
+}
+.press-heading div.sf_2cols_2_25
+{
+    float: right;
+    padding: 10px 0px 0px;
+    list-style: none outside none;
+    margin: 0px 0px 9px;
+    overflow: hidden;
+	width: auto;
+}
+
+.tables table tr td.header {
+    padding-left: 0;
+}
+
+.tables fieldset {
+  float: left;
+}
+
+.promotion-info,.promotion-terms{
+    padding:0;
+    margin-bottom:20px;
+    background:0 0;
+    width:780px; 
+    font: 12px/15px Arial, Helvetica, sans-serif;
+    color: #666;
+}
+.promotion-terms .termstyle {line-height: 14px;}
+.promotion-terms .termstyle a{
+    text-decoration: underline;
+}
+.promotion-info h1{color:#000;font-size:30px;padding-bottom:10px;letter-spacing:-1px;text-transform:none}
+.promotion-info h1,.promotion-info p{float:left;}
+.promotion-info p.heading{font-weight:700;padding-bottom:0;margin-top:6px;width: 400px;margin-left: 0;}
+.promotion-info p{margin:0;color:#000}
+div.airasia-form label.form-label{float:left;clear:left;width:150px;font-size:13px;font-weight:700;color:#333;margin-top:4px;margin-right:7px;margin-bottom:10px;padding-left:0px;}
+.promotion-info div.field-group{margin-left: 10px;width:auto;margin-top:5px}
+
+.pmsTop a{
+     font-size: 12px; 
+     color: #666666; 
+     text-decoration: underline;
+}
+
+/* top nav fixes*/
+div.drop.webcheck .drop-wrap:after{
+    left: 117px;
+}
+
+div.drop.travel .drop-wrap:after {
+    left: 322px;
+}
+
+div.drop.business .drop-wrap:after{
+    left: 382px;
+}
+
+div.account .drop-wrap:after{
+    left: 317px;
+}
+
+.business span.select-text{
+    font: 12px/15px Arial, Helvetica, sans-serif;
+}
+
+#nav li.user{
+    width: 178px;
+}
+
+/* login pages */
+article.left p {
+line-height: 16px;
+}
+
+article.left h1 {
+    color: #000;
+    font-size: 30px;
+    padding-bottom: 10px;
+    letter-spacing: -1px;
+    text-transform: none;
+}
+
+article.left h2 {
+color: #d00;
+font-size: 16px;
+padding: 20px 0 5px;
+text-transform: none;
+}
+
+article.left h3 {
+color: #000;
+font-size: 14px;
+padding: 5px 0;
+text-transform: none;
+}
+
+article.left ul{
+    padding: 0;
+    margin: 0;
+}
+
+article.left ul li{
+    list-style: square outside none;
+    margin-left: 15px;
+    padding-left: 5px;
+}
+
+section.box {
+float: left;
+border: solid 1px #e7e3da;
+width: 340px;
+margin: 0 20px 20px 0;
+}
+
+section.box div.box-content {
+margin: 1px;
+background: #fff url('../images/bg-vertical.png') 0 -540px repeat-x;
+height: 217px;
+}
+
+section#corp-login-box h3, section#member-login-box h3 {
+margin: 0 0 10px 40px;
+padding: 10px 0 20px 50px;
+background: url('../images/sprites.png') -1000px -250px no-repeat;
+}
+section#member-login-box h3 {
+background: url('../images/sprites.png') -1113px -450px no-repeat;
+}
+
+section.box a.button, section.box button.button {
+float: left;
+background: #333;
+font-weight: 700;
+font-size: 13px;
+color: #fff;
+padding: 5px 15px;
+margin-left: 20px;
+border: 0;
+cursor: pointer;
+font-family: Arial,Helvetica,sans-serif;
+}
+
+section.box a.button:hover, section.box button.button:hover {
+background: #666;
+text-decoration: none;
+}
+
+section.box div.form-buttons {
+float: right;
+margin: 10px 36px 10px 0;
+}
+
+section#corp-login-box form, section#member-login-box form {
+padding: 0 0 0 40px;
+}
+
+section.box form {
+float: left;
+}
+
+section.box form input {
+border: solid 1px #ccc;
+width: 256px;
+font-size: 12px;
+}
+
+section#corp-login-box form input, section#member-login-box form input {
+padding: 4px 2px;
+margin-bottom: 10px;
+font-family: Arial,Helvetica,sans-serif;
+}
+
+section.box div.form-buttons a.link {
+float: left;
+color: #979797;
+margin-top: 7px;
+}
+
+a:visited, header #login-tip .liner a:link {
+text-decoration: none;
+float: none!important;
+}
+
+section#signup-box h3 {
+padding: 0 0 10px 30px;
+}
+
+section#signup-box p {
+width: 252px;
+padding: 0 0 10px 30px;
+line-height: 16px;
+}
+
+section#signup-box a {
+margin-left: 30px;
+}
+
+input[type=text], select, textarea {
+border: solid 1px #e2e9ef;
+border-top: solid 1px #aaadb2;
+padding: 2px;
+font-size: 12px;
+font-family: Arial,Helvetica,sans-serif;
+}
+
+section.validation {
+float: left;
+width: 338px;
+border: solid 1px #e4e0d5;
+margin: 25px 15px 10px 0;
+display: none;
+}
+
+section.validation div.validation-content {
+padding: 7px 7px 5px;
+margin: 1px;
+background: #ffffcd;
+color: #d00;
+}
+
+section.validation div.validation-content img {
+vertical-align: middle;
+margin-top: -5px;
+padding-right: 10px;
+}
+
+iframe.left{width:690px;margin-left:10px}
+
+.left{float:left}
+
+#signup-box .box-content{
+    padding-top: 10px;
+}
+
+#content .checked-wrap{
+    font-size: 14px;
+/* padding-right: 85px; -- commented by Iyan */
+padding-bottom: 50px;
+}
+
+article h6 {
+    background-color: #efefef; 
+    font-size: 14px; 
+    font-weight: normal; 
+    margin: 0 0 10px; 
+    padding: 20px; 
+}
+
+article .highlight {
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 18px;
+    color: #7f7f7f;
+}
+
+#content .checked-wrap h2 {
+    font-size: 18px; 
+    margin: 25px 0 0;
+}
+
+#content .checked-wrap p {
+    margin: 5px 0;
+}
+
+li.rsmItem.sfNoBreadcrumbNavigation a{
+    text-decoration: none;
+    cursor: text;
+}
+
+.text-holder .travelNotes {
+    float: left;
+    width: 400px;
+    color: #000;
+}
+
+.breadcrumb ul li.rsmDisabled a{
+    text-decoration: none;
+}
+
+nav.section-menu ul ul{
+    display: none;
+}
+
+span.expand-icon{
+    float: right;
+    margin-right: 5px;
+}
+
+div.web-mobile #sidebar{
+    background-size: 100% 100%;
+}
