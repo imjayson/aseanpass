@@ -14,7 +14,7 @@ var getCredits = function($table) {
     return credit;
 }
 
-unsafeWindow.createCol = function(loc) {
+var createCol = function(loc) {
     var $locs = $('<div style="width: 200px;float: left;" class="loc"></div>');
     
     if (loc) {
@@ -51,7 +51,7 @@ var updateCredits = function() {
     $counter.html('Total Credits: ' + count);
 }
 var createLink = function(text, credits) {
-    return $('<div onclick="highlight(this);updateCredits();createCol(this.getAttribute(\'loc-id\'));" loc-id="'+text+'" credits="'+credits+'">' + text + '</div>');
+    return $('<div onclick="highlight(this);updateCredits();createCol(this.getAttribute(\'loc-id\'));" loc-id="' + text + '" credits="'+credits+'">' + text +' (' + countryMapping[text] + ')'+ '</div>');
 }
 
 $(document).ready(function() {
