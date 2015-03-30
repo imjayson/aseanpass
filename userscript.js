@@ -1,8 +1,18 @@
+// ==UserScript==
+// @name         Airasia Asean Pass
+// @namespace    http://www.airasia.com/
+// @version      0.1
+// @description  enter something useful
+// @author       You
+// @include      http://www.airasia.com/sg/en/book-with-us/asean-pass.page
+// @grant        unsafeWindow, document,window
+// @require      https://code.jquery.com/jquery-1.11.2.js
+// ==/UserScript==
 
+var $ = unsafeWindow.jQuery;
 
-
-var $planner = $('<div class="container" style="flex-direction: row"></div>');
-var $counter = $('<h1 class="counter" style="flex-direction: row">Total Credits: 0</h1>');
+unsafeWindow.$planner = $('<div class="container" style="flex-direction: row"></div>');
+unsafeWindow.$counter = $('<h1 class="counter" style="flex-direction: row">Total Credits: 0</h1>');
 
 var destinations = {};
 
@@ -20,18 +30,18 @@ unsafeWindow.createCol = function(loc) {
     if (loc) {
         var avail = destinations[loc];
         $.each(avail, function(i,e) {
-            console.log(e.credits);
-            $locs.append(createLink(i, e.credits));
+            $locs.append(createLink(i, e.country, e.credits));
+            
         });
     } else {
         $.each(destinations, function(i,e) {
-            $locs.append(createLink(i, 0));
+            $locs.append(createLink(i, e.country, 0));
         });
     }
     $planner.append($locs);
 }
 
-var highlight = function($e) {
+unsafeWindow.highlight = function($e) {
     $($e).parent().attr('done', true);
     
     $($e).parent().nextAll().remove();
@@ -43,15 +53,15 @@ var highlight = function($e) {
     $($e).css('background-color', '#eee');
     $($e).addClass('selected');
 }
-var updateCredits = function() {
+unsafeWindow.updateCredits = function() {
     var count = 0;
     $.each($('.selected'), function(i,e) {
         count += +$(e).attr('credits');
     })
     $counter.html('Total Credits: ' + count);
 }
-var createLink = function(text, credits) {
-    return $('<div onclick="highlight(this);updateCredits();createCol(this.getAttribute(\'loc-id\'));" loc-id="'+text+'" credits="'+credits+'">' + text + '</div>');
+var createLink = function(text, country, credits) {
+    return $('<div onclick="highlight(this);updateCredits();createCol(this.getAttribute(\'loc-id\'));" loc-id="'+text+'" credits="'+credits+'">' + text + ' (' + countryMapping[text] + ')' + '</div>');
 }
 
 $(document).ready(function() {
@@ -77,7 +87,7 @@ $(document).ready(function() {
             text = text[text.length-1];
             priLocs.push(text.trim()); 
         });
-        
+        console.log(priLocs);
         // secondary locations
         var $secLocs = reqTables[i].find('td').not('[colspan]').not(function(i, e) { 
             return $(e).html().indexOf('img') === -1 
@@ -93,6 +103,15 @@ $(document).ready(function() {
                 secLocs.push(text.trim());
             if (!countryMapping[text.trim()])
                 countryMapping[text.trim()] = country;
+            // var nameCorrection = $.inArray(text.trim(), priLocs);
+            // console.log(nameCorrection)
+            // console.log(nameCorrection)
+            // console.log(nameCorrection !== -1)
+            
+            // if (nameCorrection !== -1) {
+            //     console.log('adding country')
+            //     priLocs.splice(nameCorrection, 1, text.trim() + ' (' + country + ')');
+            // }
         });
         
         var secIndex = 0;        
